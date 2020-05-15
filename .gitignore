@@ -1,0 +1,68 @@
+# Compiled source #
+###################
+/dist
+/tmp
+/out-tsc
+/target/
+.vscode/
+# Only exists if Bazel was run
+/bazel-out
+
+# Dependencies #
+################
+/node_modules
+
+# IDEs and editors #
+####################
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+/.idea/
+/*.iml
+/.project
+/.project/
+/.springBeans
+
+# IDE - VSCode #
+################
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Miscellaneous #
+#################
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+/hs_err_pid24856.log
+/replay_pid24856.log
+.angulardoc.json
+
+# E2E #
+#######
+/e2e/*.js
+/e2e/*.map
+
+# System Files #
+################
+.DS_Store
+Thumbs.db
+/bin/
+/.classpath
+/.settings/
+
+# Profiling Files #
+###################
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+debug.log
