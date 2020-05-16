@@ -1,4 +1,5 @@
 # AngularReduxBasic
+A simple angular app that uses Redux for state management.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.
 
