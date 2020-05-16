@@ -6,6 +6,7 @@ import { NgReduxRouter, NgReduxRouterModule } from '@angular-redux/router';
 import { createEpicMiddleware } from 'redux-observable-es6-compat';
 import { rootReducer } from './root.reducer';
 import { RootEpics } from './root.epic';
+import { EmployeeEpics } from './employee/actions/epics';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { RootEpics } from './root.epic';
   declarations: [],
   providers: [
     NgReduxRouter,
-    RootEpics
+    RootEpics,
+    EmployeeEpics
   ]
 })
 export class StoreModule {
