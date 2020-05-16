@@ -1,10 +1,10 @@
 import { map, catchError, mergeMap } from 'rxjs/operators';
-import { Observable, of } from 'rxjs';
+import { of } from 'rxjs';
 import { Injectable } from '@angular/core';
 import * as actionTypes from './types';
 import * as actions from './actions';
 import { ofType } from 'redux-observable-es6-compat';
-import { EmployeeService } from 'src/app/employee.service';
+import { EmployeeService } from '../../../employee.service';
 
 @Injectable()
 export class EmployeeEpics {
